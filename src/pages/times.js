@@ -117,7 +117,7 @@ function Times() {
         const data = await response.json();
         setPrayerTimes(data);
     }
-
+    //test comit
 
     useEffect(() => {
         getPrayerTimes();
